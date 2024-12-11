@@ -21,7 +21,7 @@ class SectionBoilerplate {
         setTimeout(() => {
             this.div.classList.remove('slide-down');
             this.div.classList.add('active');
-        }, 10); // Small delay to ensure the slide-down class is applied before active
+        }, 50); // Small delay to ensure the slide-down class is applied before active
 
         setTimeout(() => {
             if (this.header) {
