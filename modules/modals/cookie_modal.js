@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  localStorage.setItem('cookieConsent', 'false'); // DEBUG
 });
 
 function showCookieModal() {
