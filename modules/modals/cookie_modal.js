@@ -21,7 +21,7 @@ function showCookieModal() {
   document.body.appendChild(modal);
   
   document.getElementById('cookieModalOk').addEventListener('click', () => {
-    localStorage.setItem('cookieConsent', 'false');
+    localStorage.setItem('cookieConsent', 'true');
     document.body.removeChild(modal);
     document.body.removeChild(modalOverlay);
   });
